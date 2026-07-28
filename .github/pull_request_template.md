@@ -1,15 +1,88 @@
-## Description
-<!-- Provide a clear description of the changes you made -->
+# Pull Request
+
+## Summary
+<!-- What does this PR do? Why is it needed? -->
+
+## Changes
+<!-- High-level list of changes -->
+
+- 
+- 
+- 
+
+## Impact
+<!-- Check all that apply -->
+
+- [ ] UI changes
+- [ ] Backend logic
+- [ ] API changes
+- [ ] Database migration
+- [ ] Schema validation (Zod, etc.)
+- [ ] Configuration changes
+- [ ] Worker / Queue changes
+- [ ] Audit logging
+- [ ] Documentation
+- [ ] No breaking changes
+- [ ] Breaking change (describe below)
+
+### Breaking changes
+<!-- If applicable -->
+
+## Testing
+
+### Automated
+
+- [ ] Build passes
+- [ ] Lint passes
+- [ ] Unit tests pass
+- [ ] Integration tests pass
+
+Commands:
+
+```bash
+npm run lint
+npm run build
+npm test
+```
+
+### Manual
+
+<!-- Describe how this was verified -->
+
+- 
+- 
+
+## Screenshots
+<!-- Required for UI changes -->
+
+| Before | After |
+|--------|-------|
+| | |
 
 ## Related Issues
-<!-- Link your Jira tickets or GitHub issues here (e.g., Closes #123) -->
 
-## Type of Change
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
+Closes #
+
+Related to #
+
+## Deployment Notes
+
+<!-- Anything needed during deployment -->
+
+- Database migration required
+- Environment variables added
+- Feature flag required
+- None
+
+## Reviewer Notes
+
+<!-- Anything reviewers should pay special attention to -->
 
 ## Checklist
-- [ ] My code follows the code style of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have verified my changes with automated or manual testing
+
+- [ ] PR title follows the convention
+- [ ] Code is self-reviewed
+- [ ] Tests added or updated
+- [ ] Documentation updated
+- [ ] No secrets committed
+- [ ] No unnecessary files included
