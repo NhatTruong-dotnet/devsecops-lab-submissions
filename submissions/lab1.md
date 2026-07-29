@@ -41,7 +41,14 @@
 - ☑ Product listing and search available
 - ☑ Admin/Account area discoverable
 - ☑ Client-side errors visible in DevTools console
-- **Local storage / cookies:** `<list what you saw>`
+- **Local storage / cookies:**
+
+| Cookie Name              | Value      | Domain      | Path | Expires                 | Size | Priority |
+|--------------------------|------------|-------------|:----:|-------------------------|-----:|----------|
+| `cookieconsent_status`   | `dismiss`  | `127.0.0.1` | `/`  | 2027-07-27 13:34:22 UTC |   27 | Medium   |
+| `language`               | `en`       | `127.0.0.1` | `/`  | 2027-07-27 13:33:57 UTC |   10 | Medium   |
+| `SL_GWPT_Show_Hide_tmp`  | `1`        | `127.0.0.1` | `/`  | Session                 |   22 | Medium   |
+| `welcomebanner_status`   | `dismiss`  | `127.0.0.1` | `/`  | 2027-07-27 13:34:02 UTC |   27 | Medium   |
 
 ### Security Headers
 
