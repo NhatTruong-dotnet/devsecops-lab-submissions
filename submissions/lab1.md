@@ -41,7 +41,14 @@
 - ☑ Product listing and search available
 - ☑ Admin/Account area discoverable
 - ☑ Client-side errors visible in DevTools console
-- **Local storage / cookies:** `<list what you saw>`
+- **Local storage / cookies:**
+
+| Cookie Name              | Value      | Domain      | Path | Expires                 | Size | Priority |
+|--------------------------|------------|-------------|:----:|-------------------------|-----:|----------|
+| `cookieconsent_status`   | `dismiss`  | `127.0.0.1` | `/`  | 2027-07-27 13:34:22 UTC |   27 | Medium   |
+| `language`               | `en`       | `127.0.0.1` | `/`  | 2027-07-27 13:33:57 UTC |   10 | Medium   |
+| `SL_GWPT_Show_Hide_tmp`  | `1`        | `127.0.0.1` | `/`  | Session                 |   22 | Medium   |
+| `welcomebanner_status`   | `dismiss`  | `127.0.0.1` | `/`  | 2027-07-27 13:34:02 UTC |   27 | Medium   |
 
 ### Security Headers
 
@@ -82,3 +89,31 @@ Keep-Alive: timeout=5
 - [ ] `X-Content-Type-Options: nosniff`
 - [ ] `X-Frame-Options`
 
+## PR Template Setup
+
+- File: `.github/pull_request_template.md`
+- Sections included: Summary / Changes / Impact / Testing / Screenshots / Deployment Notes / Reviewer Notes
+- Checklist items:
+  
+- [ ] PR title follows the convention
+- [ ] Code is self-reviewed
+- [ ] Tests added or updated
+- [ ] Documentation updated
+- [ ] No secrets committed
+- [ ] No unnecessary files included
+      
+- Auto-fill verified: [X] Yes — PR description showed my template (https://github.com/NhatTruong-dotnet/devsecops-lab-submissions/pull/2)
+
+## Bonus: CI Smoke Test
+
+- Workflow file: `.github/workflows/lab1-smoke.yml`
+- Trigger: `pull_request` on main
+- Run URL (must be green): [run history](https://github.com/NhatTruong-dotnet/devsecops-lab-submissions/actions/runs/30330905322)
+- Workflow run duration: 15s
+- Curl response excerpt:
+  ```
+  Homepage HTTP status: 200
+  ```
+- [x] Task 1 done — Juice Shop deployed, triage report in submissions/lab1.md
+- [x] Task 2 done — .github/PULL_REQUEST_TEMPLATE.md created
+- [x] Bonus done — lab1-smoke.yml runs green on this PR
