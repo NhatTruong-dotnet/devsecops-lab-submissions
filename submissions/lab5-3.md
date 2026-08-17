@@ -260,13 +260,8 @@ jobs:
 
 ## Successful workflow run
 
-The workflow was successfully executed through GitHub Actions with both the `sast` and `dast` jobs passing.
 
-**Successful workflow run:**
-
-> Replace the placeholder below with the actual URL of your green GitHub Actions run.
-
-`<PASTE YOUR GREEN WORKFLOW RUN URL HERE>`
+[Run History](https://github.com/NhatTruong-dotnet/devsecops-lab-submissions/actions/runs/31986493619)
 
 Expected result:
 
