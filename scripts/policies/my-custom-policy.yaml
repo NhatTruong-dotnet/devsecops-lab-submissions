@@ -19,7 +19,6 @@ definition:
       operator: "equals"
       value: true
 
----
 metadata:
   id: "CKV2_CUSTOM_2"
   name: "Ensure RDS instances have storage encryption enabled"
@@ -41,7 +40,6 @@ definition:
       operator: "equals"
       value: true
 
----
 metadata:
   id: "CKV2_CUSTOM_3"
   name: "Ensure RDS instances are not publicly accessible"
@@ -63,7 +61,6 @@ definition:
       operator: "equals"
       value: false
 
----
 metadata:
   id: "CKV2_CUSTOM_4"
   name: "Ensure RDS instances have automated backups configured"
@@ -85,7 +82,6 @@ definition:
       operator: "greater_than"
       value: 0
 
----
 metadata:
   id: "CKV2_CUSTOM_5"
   name: "Ensure RDS deletion protection is enabled"
